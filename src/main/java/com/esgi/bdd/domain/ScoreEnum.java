@@ -4,12 +4,12 @@ import lombok.Getter;
 
 @Getter
 public enum ScoreEnum {
-    LOVE("love"),
-    FIFTEEN("15"),
-    THIRTY("30"),
-    FORTY("40"),
-    DEUCE("deuce"),
-    ADVANTAGE("advantage");
+    LOVE("LOVE"),
+    FIFTEEN("FIFTEEN"),
+    THIRTY("THIRTY"),
+    FORTY("FORTY"),
+    DEUCE("DEUCE"),
+    ADVANTAGE("ADVANTAGE");
 
     private final String score;
 
